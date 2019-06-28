@@ -11,220 +11,11 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="24"
-  DTS:VersionGUID="{6CCABDA1-3359-4FF7-BF21-620AEA06365E}">
+  DTS:VersionBuild="28"
+  DTS:VersionGUID="{96B49E88-1092-490D-92B0-CC8B838CE7D0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{47B78CDC-5D49-4407-AA0F-838B06DBFE2B}"
-      DTS:ObjectName="Flat File Connection Manager">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1033"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Germany Mailchimp Export\Output reordered.txt">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="200"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Method"
-              DTS:DTSID="{18FA6487-1EF7-41B2-8447-707F9C1C94D9}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="200"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Path"
-              DTS:DTSID="{F18E01C7-A99B-41D9-8BA5-146DDC83DC55}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="200"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Body"
-              DTS:DTSID="{17B77846-7B71-40E9-8087-147E3FC5444C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="API Key"
-              DTS:DTSID="{C99ED2FF-0758-43FA-859A-E86823752DB7}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Status"
-              DTS:DTSID="{67E34510-E3D1-4BB6-94A1-29F699297AF8}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="500"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Merge Fields"
-              DTS:DTSID="{CCAC598C-7D1E-46C4-AAE9-172B04C841A8}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="200"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Email address"
-              DTS:DTSID="{3FC3ECEA-39B4-4042-84C7-DF1B8C1D4744}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="200"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="First Name"
-              DTS:DTSID="{33043B9B-42CB-4420-8E01-A9E3C4A3C188}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="200"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Last Name"
-              DTS:DTSID="{F23700EE-F8A6-4476-980F-7405C53FE81C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="200"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Contact Code"
-              DTS:DTSID="{466A162A-F84F-4FC9-AEBF-0508BEA3EA8E}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="18"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Type"
-              DTS:DTSID="{54EC37B1-3ED2-4184-9592-4EC5EEA19D97}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="71"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Salutation"
-              DTS:DTSID="{80BE29C5-8470-4BE1-9386-5FFF5AB7EFCE}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="6"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Missionary Code"
-              DTS:DTSID="{02AED650-1951-488D-868D-A787981D905B}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="54"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="First Source Code"
-              DTS:DTSID="{F3375557-9198-4A1E-BC95-E0DD08A335D8}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="32"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="System ID"
-              DTS:DTSID="{9AB1A44F-4337-44F5-B56C-341EA80198FF}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="18"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Lookup ID"
-              DTS:DTSID="{76FAC713-2B32-4BFC-A68D-98E37580C9D8}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="15"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Interests"
-              DTS:DTSID="{8A6F327A-B8F5-4278-AB53-26F5FAB99DB0}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="21"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="GDPR Email Consent"
-              DTS:DTSID="{4332EEA1-AA66-4ECD-8096-239F2C0A3E50}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="21"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="GDPR Phone Consent"
-              DTS:DTSID="{DE527639-7368-49F8-961D-F47AE3B22750}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="22"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="GDPR SMS Consent"
-              DTS:DTSID="{0755893E-0177-4709-978B-91DB9B90D6FA}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="2"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="End Record"
-              DTS:DTSID="{86D5AD04-1FDA-4C21-84EC-077FEF1582EB}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Input Export file from BBEC]"
       DTS:CreationName="FLATFILE"
@@ -330,6 +121,215 @@
               DTS:TextQualified="True"
               DTS:ObjectName="Lookup ID"
               DTS:DTSID="{D1FF426D-C364-4339-8E3E-A435CA2C1637}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Output]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{019FC6F2-5CD2-469D-9032-01F90355A724}"
+      DTS:ObjectName="Output">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Germany Mailchimp Export\Output reordered.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Method"
+              DTS:DTSID="{5580C2F4-1702-41DB-A5E0-78165E0F700C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Path"
+              DTS:DTSID="{59AAAA11-5E1E-4DFB-86EA-D1B26868F2B0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Body"
+              DTS:DTSID="{7FF49E34-2E55-49A3-B139-767B42213B02}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="API Key"
+              DTS:DTSID="{B3BA6AC1-2307-49C2-BB76-C9B6794270BD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Email address"
+              DTS:DTSID="{CA00C3DE-492B-4218-8B42-360907A9C13A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Status"
+              DTS:DTSID="{BA4BB245-7F26-48BC-8F45-E0205D6A9EDE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Merge Fields"
+              DTS:DTSID="{082CBB2A-AD7D-437C-901C-A71746FDFC3F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="First Name"
+              DTS:DTSID="{9D63B0DF-BD4B-4EEF-AEF5-77255A0C6AAD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Name"
+              DTS:DTSID="{15F17ACD-FA7A-47D0-8624-4DB96AA5ECCB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Contact Code"
+              DTS:DTSID="{6310E205-034A-4280-8E16-7B5192603EA6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="18"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Type"
+              DTS:DTSID="{95EF46BB-88D4-4B54-9DAE-301EC06F3659}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="71"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Salutation"
+              DTS:DTSID="{C70F2C38-FAD5-429B-ACAD-8CF80FF47A0F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="6"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Missionary Code"
+              DTS:DTSID="{55C70DFB-A740-45D1-AD1B-DE6497529FCF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="54"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="First Source Code"
+              DTS:DTSID="{01BB7025-C64F-435F-9F77-67E912FE8608}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="32"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="System ID"
+              DTS:DTSID="{8415421C-923D-4AC1-BB17-B86C1CB5044E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="18"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Lookup ID"
+              DTS:DTSID="{50B48E28-915C-4D71-8950-CD5F4B00A03F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="15"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Interests"
+              DTS:DTSID="{F482161E-CECF-4D68-86C1-7B20D4E7A71F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="21"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="GDPR Email Consent"
+              DTS:DTSID="{25531368-11C1-48D9-82D5-ACA3D656619F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="21"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="GDPR Phone Consent"
+              DTS:DTSID="{57076938-EB38-4A18-8033-41AEAC883030}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="22"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="GDPR SMS Consent"
+              DTS:DTSID="{A4421F00-97E2-48B5-9BA8-C1C87425C589}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="2"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="End Record"
+              DTS:DTSID="{3010B5BC-978B-43B7-9CBC-8D1BBE0AFE7C}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -632,7 +632,7 @@
                       dataType="wstr"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      length="18"
+                      length="17"
                       lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Method]"
                       name="Method"
                       truncationRowDisposition="FailComponent">
@@ -641,13 +641,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">"{\"method\": [\"PUT\","</property>
+                          name="Expression">"{\"method\": \"PUT\","</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">"{\"method\": [\"PUT\","</property>
+                          name="FriendlyExpression">"{\"method\": \"PUT\","</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -678,7 +678,7 @@
                       dataType="wstr"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      length="6"
+                      length="11"
                       lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Body]"
                       name="Body"
                       truncationRowDisposition="FailComponent">
@@ -687,13 +687,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">"\"body\""</property>
+                          name="Expression">"\"body\" : \"{"</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">"\"body\""</property>
+                          name="FriendlyExpression">"\"body\" : \"{"</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -701,7 +701,7 @@
                       dataType="wstr"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      length="54"
+                      length="53"
                       lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[API Key]"
                       name="API Key"
                       truncationRowDisposition="FailComponent">
@@ -710,13 +710,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">"{\\\"apikey\\\":\\\"327bc696ee748bda14ccdd3feff9c64b-us10\\\","</property>
+                          name="Expression">"\\\"apikey\\\":\\\"327bc696ee748bda14ccdd3feff9c64b-us10\\\","</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">"{\\\"apikey\\\":\\\"327bc696ee748bda14ccdd3feff9c64b-us10\\\","</property>
+                          name="FriendlyExpression">"\\\"apikey\\\":\\\"327bc696ee748bda14ccdd3feff9c64b-us10\\\","</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -839,7 +839,7 @@
                       dataType="wstr"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      length="22"
+                      length="23"
                       lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[GDPR SMS Consent]"
                       name="GDPR SMS Consent"
                       truncationRowDisposition="FailComponent">
@@ -848,13 +848,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">"\\\"4101ece420\\\":false}}"</property>
+                          name="Expression">"\\\"4101ece420\\\":false}}\""</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">"\\\"4101ece420\\\":false}}"</property>
+                          name="FriendlyExpression">"\\\"4101ece420\\\":false}}\""</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -929,8 +929,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Flat File Destination.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerID="Package.ConnectionManagers[Output]"
+                  connectionManagerRefId="Package.ConnectionManagers[Output]"
                   name="FlatFileConnection" />
               </connections>
               <inputs>
@@ -1022,7 +1022,7 @@
                     <inputColumn
                       refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Method]"
                       cachedDataType="wstr"
-                      cachedLength="18"
+                      cachedLength="17"
                       cachedName="Method"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Method]"
                       lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Method]" />
@@ -1036,14 +1036,14 @@
                     <inputColumn
                       refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Body]"
                       cachedDataType="wstr"
-                      cachedLength="6"
+                      cachedLength="11"
                       cachedName="Body"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Body]"
                       lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Body]" />
                     <inputColumn
                       refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[API Key]"
                       cachedDataType="wstr"
-                      cachedLength="54"
+                      cachedLength="53"
                       cachedName="API Key"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[API Key]"
                       lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[API Key]" />
@@ -1085,7 +1085,7 @@
                     <inputColumn
                       refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[GDPR SMS Consent]"
                       cachedDataType="wstr"
-                      cachedLength="22"
+                      cachedLength="23"
                       cachedName="GDPR SMS Consent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[GDPR SMS Consent]"
                       lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[GDPR SMS Consent]" />
@@ -1124,23 +1124,23 @@
                       length="50"
                       name="API Key" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Status]"
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Email address]"
                       codePage="65001"
                       dataType="str"
                       length="50"
+                      name="Email address" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Status]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
                       name="Status" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Merge Fields]"
                       codePage="65001"
                       dataType="str"
-                      length="500"
-                      name="Merge Fields" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Email address]"
-                      codePage="65001"
-                      dataType="str"
                       length="200"
-                      name="Email address" />
+                      name="Merge Fields" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[First Name]"
                       codePage="65001"
@@ -1637,33 +1637,33 @@
         <NodeLayout
           Size="172,42"
           Id="Package\Data Flow Task\Flat File Destination"
-          TopLeft="243,329" />
+          TopLeft="248,341" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Derived Column Output]"
           TopLeft="317,296">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="12,33"
+              EndConnector="17,45"
               Start="0,0"
-              End="12,25.5">
+              End="17,37.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,12.5" />
+                    End="0,18.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,12.5"
-                    Point2="0,16.5"
-                    Point3="4,16.5" />
+                    Point1="0,18.5"
+                    Point2="0,22.5"
+                    Point3="4,22.5" />
                   <mssgle:LineSegment
-                    End="8,16.5" />
+                    End="13,22.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="8,16.5"
-                    Point2="12,16.5"
-                    Point3="12,20.5" />
+                    Point1="13,22.5"
+                    Point2="17,22.5"
+                    Point3="17,26.5" />
                   <mssgle:LineSegment
-                    End="12,25.5" />
+                    End="17,37.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
